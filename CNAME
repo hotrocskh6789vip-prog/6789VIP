@@ -1,1 +1,95 @@
 6789vip.world
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #00cc99;
+  color: #000;
+  text-align: center;
+}
+
+header {
+  background-color: #00a87e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 5px 10px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-yellow {
+  background: linear-gradient(180deg, #fdf402, #ffb014);
+  border: 1px solid #31b78a;
+  border-radius: 12px;
+  color: #2a7659;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.btn-green {
+  background: linear-gradient(180deg, #c2efd8, #31b78a);
+  border: 1px solid #31b78a;
+  border-radius: 12px;
+  color: #2a7659;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.banner img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto;
+}
+
+.content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.content h2 {
+  color: #31b78a;
+}
+
+footer {
+  background-color: #004d40;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+}
